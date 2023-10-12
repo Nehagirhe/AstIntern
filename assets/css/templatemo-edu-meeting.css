@@ -2578,3 +2578,25 @@ a, button {
 
 
 /*Know more button css end*/
+
+/* Media queries for video */
+
+
+/* Media queries for responsiveness */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .main-banner {
+      max-height: 70vh;
+  }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+  .main-banner {
+      max-height: 70vh;
+  }
+  .main-banner .caption {
+      font-size: 1px; /* Adjust font size for smaller screens */
+  }
+}
